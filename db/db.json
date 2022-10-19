@@ -1,0 +1,39 @@
+{
+  "notes": [
+    {
+      "title": "My note",
+      "text": "My Note",
+      "id": "0"
+    },
+    {
+      "title": "test",
+      "text": "blah blah",
+      "id": "1"
+    },
+    {
+      "title": "I think it works",
+      "text": "hoorah\n",
+      "id": "2"
+    },
+    {
+      "title": "yeeeeeaaaaaaaaaaa",
+      "text": "ahhhhhh",
+      "id": "3"
+    },
+    {
+      "title": "hhhhh",
+      "text": "iiiiii",
+      "id": "4"
+    },
+    {
+      "title": "My version",
+      "text": "is working?",
+      "id": "5"
+    },
+    {
+      "title": "programming",
+      "text": "is hard!!!!",
+      "id": "6"
+    }
+  ]
+}
