@@ -11,9 +11,9 @@ const fs = require('fs');
 const path = require('path');
 
 
-const apiRoutes = require('./routes/apiRoutes');
+const apiRoads = require('./roads/apiRoads');
 
-const htmlRoutes = require('./routes/htmlRoutes');
+const htmlRoads = require('./roads/htmlRoads');
 
 
 
@@ -27,9 +27,9 @@ app.use(express.static('public'));
 app.use(express.json());
 
 
-app.use('/api', apiRoutes);
+app.use('/api', apiRoads);
 
-app.use('/', htmlRoutes);
+app.use('/', htmlRoads);
 
 
 app.listen(PORT, () => {
