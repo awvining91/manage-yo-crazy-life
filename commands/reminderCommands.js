@@ -1,9 +1,12 @@
 
+// These constants define the needed depencies
+
 const fs = require("fs");
 
 
 const path = require("path");
 
+// This cool function helps us to add rad new notes to our app
 
 function addReminder(data, reminderData) {
 
@@ -24,6 +27,7 @@ function addReminder(data, reminderData) {
     return note;
 }
 
+// This handy function helps us delete old notes so the page doesn't look too crowded 
 
 function eraseReminder(reminderData, id) {
 
@@ -55,3 +59,12 @@ module.exports = {
 
     eraseReminder
 };
+
+
+/* References
+
+- https://blog.devgenius.io/learning-nodejs-by-creating-a-notes-app-9eafc4223306
+
+- https://www.studytonight.com/post/notepad-app-using-nodejs-mongodb-and-express
+
+*/

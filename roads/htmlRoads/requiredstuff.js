@@ -1,4 +1,4 @@
-
+//This links the index and notes html files in the public folder, the front-end starter code
 
 const path = require('path');
 
