@@ -10,7 +10,7 @@ const {
 const {
     addReminder,
     eraseReminder
-} = require('../../lib/noteFunctions');
+} = require('../../commands/reminderCommands');
 
 
 router.get('/notes', (req, res) => {

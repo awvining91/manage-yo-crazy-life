@@ -2,10 +2,10 @@
 const router = require('express').Router();
 
 
-const notesRoutes = require('./noteRoutes')
+const reminderPath = require('./reminderPath')
 
 
-router.use(notesRoutes);
+router.use(reminderPath);
 
 
 
